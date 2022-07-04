@@ -67,6 +67,7 @@ p {
     font-family: 'Kanit', serif;
     line-height: 1em;
     padding-bottom: .2em;
+    cursor: pointer;
 }
 .content .news-thumb{
     justify-content: space-between;
