@@ -1,0 +1,136 @@
+@import "_normalize";
+$primary-font: 'Quicksand', serif;
+$secondary-font: 'Kanit', serif;
+$color-black: #000;
+$news-border-bottom: 1px solid #cccccc;
+
+* {
+    font-family: $primary-font;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+}
+
+h3,h4,
+p {
+    padding: 0;
+    margin: 0;
+}
+
+.d-col-6 {
+    width: 100%;
+    display: flex;
+}
+
+.contaner,.news-thumb,.content {
+    display: flex;
+    flex: 1;
+}
+.contaner>article {
+    flex: 1;
+    order: 1;
+}
+
+.contaner>aside {
+    flex: 0 0 30vw;
+    background: beige;
+    order: 2;
+}
+article,
+aside {
+    padding: 1em;
+}
+.header {
+    background-color:$color-black;
+    color: #fff;
+    padding: 0.4em;
+    h3 {
+        font-family: $secondary-font;
+        font-size: 1.8em;
+    
+    }
+    p,div {
+        font-size: 0.7em;
+        padding: 0.4em 0;
+    }
+}
+
+.content {
+    justify-content: space-between;
+    text-align: left;
+    margin-top: 0.5em;
+    box-shadow: 0px 0px 5PX #808080;
+    padding: .5em;
+    .news {
+        padding: .3em;
+        border-bottom: $news-border-bottom;
+        display: flex;
+        flex-direction: column;
+        .img-news {
+            width: 100%;
+        }
+        h3{
+            font-size: 2em;
+            font-family: $secondary-font;
+            line-height: 1em;
+            padding-bottom: .2em;
+            cursor: pointer;
+            .img-icon {
+                width: 15px
+            }
+        }
+        p {
+            font-size: .8em;
+            padding-bottom: 1em;
+            span {
+                color: #2196f3;
+                font-family: $secondary-font;
+            }
+        }
+        .news-footer{
+            font-size: .8em;
+        }
+    }
+    .news-thumb{
+        justify-content: space-between;
+        .img-news-thumb {
+            width: 75px;
+            height: 75px;
+        }
+        h4 {
+            font-size: 1.5em;
+            color: #6d6363;
+            font-family: $secondary-font;
+            font-size: 1.3em;
+        }
+        p {
+            font-size: .8em;
+            padding-bottom: 1em;
+            span {
+                color: #2196f3;
+                font-family: $secondary-font;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

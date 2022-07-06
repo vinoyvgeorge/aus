@@ -1,0 +1,27 @@
+{
+  "name": "aus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinoyvgeorge/aus.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinoyvgeorge/aus/issues"
+  },
+  "homepage": "https://github.com/vinoyvgeorge/aus#readme",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "sass": "^1.53.0"
+  },
+  "devDependencies": {
+    "del": "^6.1.1",
+    "gulp-sass": "^5.1.0"
+  }
+}
